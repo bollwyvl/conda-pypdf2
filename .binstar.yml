@@ -1,0 +1,14 @@
+package: pypdf2
+
+platform:
+  - linux-64
+
+engine:
+  - python=2.7
+  - python=3.4
+  - python=3.5
+
+script:
+  - conda build .
+
+build_targets: conda
